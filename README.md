@@ -7,10 +7,8 @@
     src="data/presentation.png">
 </p>
 
-<hr/>
-
 <p><b>NOTE</b>:
-This fork of Silence was made solely to implement a temporary workaround for the presumed bug in ContentResolver.query which causes the selectionArgs parameter to be completely ignored. This problem is present only in some versions of Android 12, particularily in LineageOS 19.1 GSI.
+This fork of Silence was made solely to implement a temporary workaround for the presumed bug in ContentResolver.query which causes the selectionArgs parameter to be completely ignored, which inherently disables such features as repeated calls (those are being always rejected) and phone numbers found in messages. This problem is present only in some versions of Android 12, particularily in LineageOS 19.1 GSI.
 </p>
 
 [<img 
