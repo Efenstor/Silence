@@ -1,3 +1,7 @@
+<p><b>NOTE</b>:
+This fork of Silence was made solely to implement a temporary workaround for the presumed bug in ContentResolver.query which causes the selectionArgs parameter to be completely ignored. This problem is present only in some versions of Android 12, particularily in LineageOS 19.1 GSI.
+</p>
+<hr/>
 <h1 align="center">Silence</h1>  
 <h3 align="center">Block unknown callers</h3>  
 <br/>
