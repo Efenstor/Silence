@@ -35,7 +35,7 @@ class SimFragment : Fragment() {
         ctx = this.requireContext()
         prefs = Preferences(ctx)
         binding.apply {
-            val enabled = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S &&
+            val enabled = Build.VERSION.SDK_INT >= Build.VERSION_CODES.R &&
                     Utils.getModemCount(ctx) >= 2
             sim1.isEnabled = enabled
             sim2.isEnabled = enabled
